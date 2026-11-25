@@ -56,6 +56,7 @@ jobs:
           source venv/Scripts/activate
           poetry install
           make build
+          python scripts/package/normalize-fork-version.py
           make package
 
       - name: Publish the installer on the tag

@@ -3,19 +3,13 @@ name: Release
 # Unified release/build pipeline for ActivityWatch.
 #
 # Triggers:
-#   - schedule / workflow_dispatch: decide whether to create a new dev prerelease tag
-#   - push / pull_request: run the normal build matrices
-#   - tag push: run both build matrices, generate release notes, and publish one draft release
+#   - workflow_dispatch: upstream release matrix, manual only on this fork
+# Windows installers are built by tag-windows.yml when a v* tag is pushed.
 
 on:
-  schedule:
-    # Weekly dev prerelease (goes through preflight/create-tag).
-    - cron: '0 12 * * 4'
-    # Nightly integration build: every submodule moved to its upstream
-    # master, build + test, nothing committed or published. Skipped when
-    # no submodule moved since the pinned tree. Identified below via
-    # github.event.schedule == '0 3 * * *'.
-    - cron: '0 3 * * *'
+  # This fork publishes Windows builds from tag-windows.yml. The upstream
+  # matrix needs ActivityWatch's signing secrets and org runners, so it is
+  # manual here instead of running on every push, tag, or schedule.
   workflow_dispatch:
     inputs:
       submodules:
@@ -42,12 +36,6 @@ on:
           - standard
           - research
         default: standard
-  push:
-    branches: [master]
-    tags:
-      - v*
-  pull_request:
-    branches: [master]
 
 permissions:
   contents: write

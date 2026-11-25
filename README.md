@@ -7,6 +7,8 @@
 > [docs/WebDAV自动备份.md](docs/WebDAV自动备份.md)。
 > 其中 aw-qt 子模块指向 fork
 > [guyu-guyu/aw-qt-plus](https://github.com/guyu-guyu/aw-qt-plus) 的 `webdav-backup` 分支。
+> 推送 `v*` tag 会自动构建 Windows 安装包，见
+> [docs/自动构建.md](docs/自动构建.md)。
 
 <p align="center">
   <b>Records what you do</b> so that you can <i>know how you've spent your time</i>.

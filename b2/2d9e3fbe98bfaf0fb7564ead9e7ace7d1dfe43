@@ -1,0 +1,26 @@
+.github/workflows/tag-windows.yml
+  s_eaf387bbfdcdc9::t_ea560cffd070c4 1-69
+docs/自动构建.md
+  s_eaf387bbfdcdc9::t_a78823f9f931ce 1-31
+.github/workflows/release.yml
+  s_eaf387bbfdcdc9::t_ba7321124b639f 10-12
+  s_eaf387bbfdcdc9::t_26741ae01d70ac 6-7
+README.md
+  s_eaf387bbfdcdc9::t_7c7c11d2e3729c 10-11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "b22d9e3fbe98bfaf0fb7564ead9e7ace7d1dfe43",
+  "prompts": {},
+  "sessions": {
+    "s_eaf387bbfdcdc9": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "937c5176-e491-49c2-921f-ae64842d9fe5",
+        "model": "auto-smart"
+      },
+      "human_author": "leijieliu <leijieliu@tencent.com>"
+    }
+  }
+}

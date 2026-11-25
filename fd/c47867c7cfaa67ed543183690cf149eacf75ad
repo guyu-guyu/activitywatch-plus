@@ -1,0 +1,25 @@
+.gitmodules
+  s_eaf387bbfdcdc9::t_d25a168545f5d0 15
+README.md
+  s_eaf387bbfdcdc9::t_db1680965e32bb 3-10
+docs/WebDAV自动备份.md
+  s_eaf387bbfdcdc9::t_8d20f1ed0e53f7 1-57
+aw-qt
+  s_eaf387bbfdcdc9::t_a6ceee82de882b 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "fdc47867c7cfaa67ed543183690cf149eacf75ad",
+  "prompts": {},
+  "sessions": {
+    "s_eaf387bbfdcdc9": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "937c5176-e491-49c2-921f-ae64842d9fe5",
+        "model": "auto-smart"
+      },
+      "human_author": "leijieliu <leijieliu@tencent.com>"
+    }
+  }
+}

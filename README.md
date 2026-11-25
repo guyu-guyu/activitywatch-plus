@@ -1,5 +1,13 @@
 <img title="ActivityWatch" src="https://activitywatch.net/img/banner.png" align="center">
 
+> **本仓库是 ActivityWatch 的个人 fork（activitywatch-plus）**，在官方桌面版基础上
+> 为 aw-qt 托盘程序增加了「通过 WebDAV 自动备份数据」功能，与
+> [aw-android-plus](https://github.com/guyu-guyu/aw-android-plus)（安卓 fork）共用同一套
+> 备份目录，多台设备可汇总到同一个 WebDAV 文件夹。使用与原理见
+> [docs/WebDAV自动备份.md](docs/WebDAV自动备份.md)。
+> 其中 aw-qt 子模块指向 fork
+> [guyu-guyu/aw-qt-plus](https://github.com/guyu-guyu/aw-qt-plus) 的 `webdav-backup` 分支。
+
 <p align="center">
   <b>Records what you do</b> so that you can <i>know how you've spent your time</i>.
   <br>

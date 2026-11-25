@@ -12,7 +12,7 @@
 	url = https://github.com/ActivityWatch/aw-watcher-afk.git
 [submodule "aw-qt"]
 	path = aw-qt
-	url = https://github.com/ActivityWatch/aw-qt.git
+	url = https://github.com/guyu-guyu/aw-qt-plus.git
 [submodule "aw-watcher-window"]
 	path = aw-watcher-window
 	url = https://github.com/ActivityWatch/aw-watcher-window.git

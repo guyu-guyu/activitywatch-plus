@@ -1,0 +1,19 @@
+aw-qt
+  s_eaf387bbfdcdc9::t_a4cc1c2087abc7 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "b996d82b556b2d949aec554eb3b08caacd20fda7",
+  "prompts": {},
+  "sessions": {
+    "s_eaf387bbfdcdc9": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "937c5176-e491-49c2-921f-ae64842d9fe5",
+        "model": "auto-smart"
+      },
+      "human_author": "leijieliu <leijieliu@tencent.com>"
+    }
+  }
+}
